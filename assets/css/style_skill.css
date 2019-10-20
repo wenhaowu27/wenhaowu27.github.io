@@ -8,7 +8,7 @@ body {
   overflow: hidden;
   background: linear-gradient(to bottom, #202020, #111119);
   background-image: url("../images/Seattle_Line_Style.jpg");
-  z-index: 9;
+  z-index: 3;
 }
 
 .rain {
@@ -16,7 +16,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 9;
+  z-index: 2;
 }
 
 .rain.back-row {
