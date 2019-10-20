@@ -1,7 +1,7 @@
   .circleHtml {
     position: relative;
     display: inline-block;
-    margin-top: 250px;
+    margin-top: 20%;
     margin-left:10%;
     background: #adadad;
     border-radius: 50%;
@@ -12,7 +12,7 @@
   .circleCss {
     position: relative;
     display: inline-block;
-    margin-top: 250px;
+    margin-top: 20%;
     margin-left:10%;
     background: #adadad;
     border-radius: 50%;
@@ -23,7 +23,7 @@
   .circleJava {
     position: relative;
     display: inline-block;
-    margin-top: 250px;
+    margin-top: 20%;
     margin-left:10%;
     background: #adadad;
     border-radius: 50%;
@@ -34,7 +34,7 @@
   .circleFullStack {
     position: relative;
     display: inline-block;
-    margin-top: 250px;
+    margin-top: 20%;
     margin-left:10%;
     background: #adadad;
     border-radius: 50%;
@@ -45,7 +45,7 @@
   .circleNodeJs {
     position: relative;
     display: inline-block;
-    margin-top: 250px;
+    margin-top: 20%;
     margin-left:10%;
     background: #adadad;
     border-radius: 50%;
