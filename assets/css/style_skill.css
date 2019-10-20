@@ -7,7 +7,7 @@ body {
   margin: 0;
   overflow: hidden;
   background: linear-gradient(to bottom, #202020, #111119);
-  background-image: url("../images/Seattle_Line_Style.jpg");
+  background-image: url("../images/seattle_Line_Style.png");
   z-index: 3;
 }
 
@@ -147,7 +147,7 @@ div.container4 p {
   }
 }
 
-/* .splat {
+.splat {
   width: 15px;
   height: 10px;
   border-top: 2px dotted rgba(255, 255, 255, 0.5);
@@ -156,7 +156,7 @@ div.container4 p {
   transform: scale(0);
   animation: splat 0.5s linear infinite;
   display: none;
-} */
+}
 
 /* body.splat-toggle .splat {
   display: block;
