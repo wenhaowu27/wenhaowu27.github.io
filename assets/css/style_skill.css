@@ -33,7 +33,7 @@ body.back-row-toggle .rain.back-row {
 .drop {
   position: absolute;
   bottom: 100%;
-  width: 15px;
+  width: 20px;
   height: 120px;
   pointer-events: none;
   animation: drop 0.5s linear infinite;

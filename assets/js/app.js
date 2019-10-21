@@ -21,7 +21,7 @@ function makeItRain() {
     var drops = "";
     var backDrops = "";
   
-    while (increment < 100) {
+    while (increment < 500) {
       //couple random numbers to use for various randomizations
       //random number between 98 and 1
       var randoHundo = (Math.floor(Math.random() * (98 - 1 + 1) + 1));
