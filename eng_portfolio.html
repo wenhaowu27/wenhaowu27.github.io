@@ -11,6 +11,9 @@
         background-color: lightsteelblue;
     }
     .mySlides {display:none;}
+    #btn-l, #btn-r {
+      opacity: .5;
+    }
     </style>
 </head>
 <body>
@@ -45,8 +48,8 @@
            <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide25.PNG" style="width:80%">
            <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide26.PNG" style="width:80%">
         
-          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+          <button class="w3-button w3-black w3-display-left" id="btn-l" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-black w3-display-right" id="btn-r" onclick="plusDivs(1)">&#10095;</button>
         </div>
         
         <script>
