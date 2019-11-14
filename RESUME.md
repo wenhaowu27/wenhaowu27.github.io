@@ -1,5 +1,5 @@
 # <p>Wenhao Wu</p> #
-#### [Home](https://wenhaowu27.github.io) ###
+#### [Return to My Portfolio](https://wenhaowu27.github.io) ###
 ### Engineering Profession ###
 <p>More than 20 years new product development experiences to bring product from its inception to production. Program management design/development, cost take out, production readiness, worldwide certification for import/export compliance, as well as supply chain management. MSME and MBA with project management emphasis</p> 
 
