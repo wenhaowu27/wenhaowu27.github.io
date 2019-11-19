@@ -1,0 +1,27 @@
+/* * {
+    margin: 0;
+    background: #080202;
+} */
+
+canvas {
+  display:block;
+  margin:20px auto;
+  /* border:1px dashed #bbb; */
+}
+
+a {
+  width:800px;
+  display:block;
+  margin:0 auto;
+  position:relative;
+  top:-380px;
+  left:4px;
+  font-family:Helvetica, sans-serif;
+  font-size:18px;
+  text-decoration:none;
+  color: #aaa;
+}
+
+a:hover {
+  color: #888;
+}
