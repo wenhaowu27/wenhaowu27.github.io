@@ -1,15 +1,13 @@
 html {
   height: 100%;
 }
-/* 
+
 body {
   height: 100%;
   margin: 0;
   overflow: hidden;
   background: linear-gradient(to bottom, #202020, #111119);
-  background-image: url("../images/seattle_Line_Style.jpg");
-  background-image: url("../images/rain_effect.gif");
-} */
+}
 
 .circleHtml {
   position: relative;

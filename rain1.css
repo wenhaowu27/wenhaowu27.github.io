@@ -1,19 +1,23 @@
-* {
+/* * {
     margin: 0;
     background: #080202;
-}
-
-#bodyColor{
+} */
+/* html {
+  width: 100%;
+  height: 100%;
+} */
+/* #canvasColor {
   background: #080202;
-}
+} */
 
 canvas {
   display:block;
   margin:20px auto;
+  background: url(./assets/images/seattle_Line_Style_White.png);
   /* border:1px dashed #bbb; */
 }
 
-a {
+/* aLink {
   width:800px;
   display:block;
   margin:0 auto;
@@ -26,6 +30,6 @@ a {
   color: #aaa;
 }
 
-a:hover {
+aLink:hover {
   color: #888;
-}
+} */

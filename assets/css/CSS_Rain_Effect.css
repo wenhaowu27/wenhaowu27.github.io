@@ -80,7 +80,7 @@ html {
     opacity: 0;
     transform: scale(0);
     animation: splat 0.5s linear infinite;
-    display: block;
+    /* display: block; */
   }
   
   body.splat-toggle .splat {
