@@ -16,8 +16,13 @@ window.requestAnimFrame =
 
 const canvas = document.getElementById('c');
 const ctx = canvas.getContext('2d');
-canvas.width = 900;
-canvas.height = 600;
+canvas.width = 1366;
+canvas.height = 300;
+// ctx.font = "30px Comic Sans MS";
+ctx.fillStyle = "white";
+ctx.textAlign = "center";
+ctx.font = "30px Arial";
+ctx.strokeText("Hello World");
 
 //--------------------------------------------
 

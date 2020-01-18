@@ -8,20 +8,50 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="favicon.ico"> 
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="./assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 	
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
 	
 	<!-- FontAwesome JS-->
 	<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
 	
 	<!-- Theme CSS -->  
 	<link id="theme-style" rel="stylesheet" href="./assets/css/devresume.css">
+	<link rel="stylesheet" href="./assets/css/about.css">
+	<style>
+	#Tfont {
+		font-family: 'Kanit', sans-serif;
+	}
+	</style>
 
 </head> 
 
 <body>
+	<nav class="white" role="navigation">
+		<div class="nav-wrapper container">
+		  <a href="#" class="brand-logo" id="navfontcolor"><img src="./assets/images/spartan.png" alt="spartan" height="30px" width="30px"></a>
+		  <ul class="right hide-on-med-and-down">
+			  <li><a href="index.html" id="navfontcolor">Home</a></li>
+			  <li><a href="about.html" id="navfontcolor">About Me</a></li>
+			  <li><a href="WenhaoWuResume.html" id="navfontcolor">Engineering Resume</a></li>
+			  <li><a href="my_projects.html" id="navfontcolor">Project Portfolio</a></li>
+		  </ul>
 	
+		  <ul id="nav-mobile" class="sidenav">
+			  <li><a href="#">menu</a></li>
+			  <li>><a href="index.html" style="color: black;">Home</a></li>
+			  <li>><a href="about.html" style="color: black;">About me</a></li>
+			  <li><a href="WenhaoWuResume.html" style="color: black;">Engineering Resume</a></li>
+			  <li><a href="my_projects.html" style="color: black;">Project Portfolio</a></li>
+			</ul>
+		  <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons" style="color: #0f4c81;">menu</i></a>
+		</div>
+	  </nav>
 	
 	<div class="main-wrapper">
 		<div class="container px-3 px-lg-5">
@@ -30,7 +60,7 @@
 				<div class="resume-header">
 					<div class="row align-items-center">
 						<div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
-							<h2 class="resume-name mb-0">Wenhao Wu</h2>
+							<h2 class="resume-name mb-0" id="Tfont">Wenhao Wu</h2>
 							<div class="resume-tagline mb-3 mb-md-0">Technical Program Manager/Full Stack Software developer</div>
 						</div><!--//resume-title-->
 						<div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
@@ -49,7 +79,7 @@
 					<div class="media flex-column flex-md-row align-items-center">
 						<img class="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="./assets/images/me_R.png" alt="image">
 						<div class="media-body text-left">
-							<p class="mb-0">High-performing cross functional leader with deep experience in product development and bringing new products to market both as a project manager and engineer. Looking to join a growing entrepreneurial organization as a technical program/project manager leading the product development lifecycle. </p>
+							<p class="mb-0">High-performing cross functional leader with deep experience in product development and bringing new products to market both as a project manager and engineer. Looking to join a growing entrepreneurial organization as a program/project manager leading the product development lifecycle. </p>
 						</div><!--//media-body-->
 					</div>
 				</div><!--//resume-intro-->
@@ -68,9 +98,15 @@
 									<div class="item-content">
 										<p>Responsible for fixtures design for RF and acoustic testing</p>
 										<ul class="resume-list">
-											<li>Translate ID Specifications to Mass Production capable design.</li>
-											<li>Interact with cross-functional leads (ID, EE, RF, Audio, Reliability & Compliance) to ensure Mechanical Design meets Product specification.</li>
-											<li>Build proof of concepts to prove function, manufacturability, and robustness.</li>
+											<li>Drive Mechanical Design and Program schedule from concept phase to production start</li>
+											<li>Translate ID Specifications to Mass Production capable design</li>
+											<li>Responsible for supplier selection and validation, drive communication with Operations and Suppliers to ensure design intent and program deliverables</li>
+											<li>Drive Mechanical design reviews (DFMEA, DFM & tooling release) to prepare design for each development phase and mass production</li>
+											<li>Interact with cross-functional leads (ID, EE, RF, Audio, Reliability & Compliance) to ensure Mechanical Design meets Product specification</li>
+											<li>Responsible for mechanical design, fit, function and documentation</li>
+											<li>Provide detailed design and 2D documentation of all parts and assemblies</li>
+											<li>Create accurate Bills of Materials</li>
+											<li>Build proof of concepts to prove function, manufacturability, and robustness</li>
 										</ul>
 									</div>
 								</div><!--//item-->
@@ -145,6 +181,9 @@
 									</div>
 									<div class="item-content">
 										<p>Supervising group of engineer and technician to develop and manufacture MicroFluidics lab card for bio testing</p>
+										<ul class="resume-list">
+										<li>Solved multiple 2 year old quality issues by change manufacturing equipment part design as well as reexam part quality</li>
+										</ul>
 									</div>
 								</div><!--//item-->
 								<div class="item">
@@ -169,7 +208,11 @@
 											
 										</div>
 										<div class="item-content">
-											<p>Design and devlop fire suppression system for Ford Crown Victoria police vehicle </p>
+											<p></p>
+											<ul class="resume-list">
+												<li>Solved propellant manufacturing issue with new design</li>
+												<li>Design/development fire suppression system using  solid propellant for police vehicle</li>
+											</ul>
 										</div>
 									</div><!--//item-->
 									<div class="item">
@@ -181,9 +224,10 @@
 										<div class="item-content">
 											<p>Design and develop CSR-2 chassis and lincards</p>
 											<ul class="resume-list">
-													<li>Completed design and development of CSR-1 router systems to meet NEBS compliance.</li>
-													<li>Lead Linecard development group in customize project for varies telecommunication (South Bell and AT&T) companies</li>
-												</ul>
+												<li>Started the project with 2 fellow engineer but sole responsible for completed design and development of CSR-2 router systems to meet NEBS compliance</li>
+												<li>Produce handmade prototype to demonstrate design concept in visual. Develop a complex routing system for fiber optic ribbon assembly</li>
+												<li>Lead Line card development group in customize project for varies telecommunication (South Bell and AT&T) companies</li>	
+											</ul>
 										</div>
 									</div><!--//item-->
 									<div class="item">
@@ -220,10 +264,11 @@
 										<div class="item-content">
 											<p>Responsible for snowboard binding development</p>
 											<ul class="resume-list">
-													<li>Lead engineer to design, development and testing snowboard equipment, snowboard and binding system.</li>
-													<li>Working closely with plastic injection molding shop to ensure part meet/maintain mechanical property under cold weather application</li>
-													<li>Working closely with marketing to educate and promode product. </li>
-												</ul>
+												<li>Started project from artist hand sketch and turn into real product</li>
+												<li>Nominated and awarded  by Snowboard Magazine as “The Binding”</li>
+												<li>Awarded 3 patents by U.S. Patent Office</li>
+												<li>Lead engineer to design, development and testing snowboard equipment, snowboard and binding system</li>												
+											</ul>
 										</div>
 									</div><!--//item-->
 									<div class="item">
@@ -235,10 +280,11 @@
 										<div class="item-content">
 											<p>Responsible for Speeddometer/Tachometer development</p>
 											<ul class="resume-list">
-													<li>Responsible for design and develop first generation electrical speedSpeeddometer/tachometer from mechanical type device. </li>
-													<li>Lead project manager to international customer, UPS truck, to ensure product meet client’s expectation</li>
-													<li>Working closely with in house manufacture facility to transition new product assembly seamlessly.</li>
-												</ul>
+												<li>Lead automobile instruments development from mechanical to electrical speedometer/tachometer</li> 
+												<li>Solved 30 years old manufacturing issue with design improvement</li>
+												<li>Lead project to international customer to ensure product meet client’s expectation</li>
+												<li>Lead design team to develop instrument panel for UPS delivery truck</li>											
+											</ul>
 										</div>
 							</section><!--//work-section-->
 
@@ -383,7 +429,9 @@
 			
 			</div><!--//main-wrapper-->
 			
-
+			<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+			<script src="./assets/js/materialize.js"></script>
+			<script src="./assets/js/init.js"></script>
 </body>
 </html> 
 

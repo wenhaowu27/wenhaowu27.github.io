@@ -1,16 +1,26 @@
-* {
-    margin: 0;
-    background: #080202;
-}
+/* * {
+    margin-top: 25%px;
+    background: #0f4c81;
+} */
 
 #bodyColor{
-  background: #080202;
+  position: absolute;
+  margin: 0 auto;
+  background: #0f4c81;
+  color: #fff;
+  width: 1366;
+  height: 300;
+  /* z-index: 999; */
+  
 }
 
 canvas {
-  display:block;
-  margin:20px auto;
-  /* border:1px dashed #bbb; */
+  position: absolute;
+  display: block;
+  margin: 20px auto;
+  background: #0f4c81;
+  border:1px dashed #bbb;
+  z-index: -999;
 }
 
 a {

@@ -1,0 +1,38 @@
+/* body {
+    height: 70vh;
+    margin: 0;
+    background: linear-gradient(to top, #0f4c81 90%, #fff 10%);    
+    background-repeat: no-repeat;
+} */
+
+/* #wrapper {
+    margin: 0;
+    height: 75vh;
+    background-color: #0f4c81;
+} */
+#about_wrapper {
+    margin: 0;
+    height: 90%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    background-color: #0f4c81;
+    overflow: hidden;
+}
+
+/* #twotone {
+    background-color: #0f4c81, #fff;
+    background-position: left top, right bottom;
+    background-repeat: repeat, repeat;
+    padding: 15px;
+} */
+
+#tcolor {
+    background-color: #0f4c81;
+    color: white;
+  }
+
+#navfontcolor {
+    color: #0f4c81;
+}

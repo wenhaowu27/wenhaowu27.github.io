@@ -84,15 +84,18 @@ body {
 /* Style the front side (fallback if image is missing) */
 
 .flip-card-front {
-    background-color: #bbb;
+    background-color: #0f4c81;
     color: black;
+    padding-top: 35%;
+    text-align: center;
+    font-size: 1.5em;
 }
 
 
 /* Style the back side */
 
 .flip-card-back {
-    background-color: rgba(0, 101, 148, 0.3);
+    background-color: rgba(0, 101, 148, 1);
     color: rgb(65, 65, 65);
     transform: rotateY(180deg);
 }

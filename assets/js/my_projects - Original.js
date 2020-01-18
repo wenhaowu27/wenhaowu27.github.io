@@ -8,11 +8,6 @@
         name: "Crystal Collection"
         },
         {
-          img: "./assets/project_img/4digits_Game.png",
-          link:"https://wenhaowu27.github.io/4digit_game/",
-          name: "Bulls & Cows"
-        },
-        {
           img: "./assets/project_img/passwpordGenerator.png",
           link: "https://wenhaowu27.github.io/password_generator/",
           name: "Password Generator"
@@ -36,6 +31,11 @@
           img: "./assets/project_img/liri_nodejs.jpg",
           link: "https://wenhaowu27.github.io/unit-10-liri-nodejs/",
           name: "Liri-NodeJs"
+        },
+        {
+          img: "./assets/project_img/4digits_Game.png",
+          link:"https://wenhaowu27.github.io/4digit_game/",
+          name: "Bulls & Cows"
         },
         {
           img:"./assets/project_img/onecommunity.jpg",
@@ -86,24 +86,20 @@
 
       for (let i = 0; i < project.length; i++){     
         var newflip = $("<div>");
+        newflip.addClass("flip-card project_img")
         var newcard = $("<div class='flip-card-inner'>");
         var newcardFront = $("<div class='flip-card-front'>");
-        var newcardBack = $("<div class='flip-card-back newprojimg'>")
-       //create image dynamically
         var newimg = $("<img>");
-        newflip.addClass("flip-card project_img")
         newimg.addClass("newprojimg");
         newimg.attr("src", project[i].img);
-        //attach image t0 flip side
-        newcardBack.append(newimg);
-        //create link dynamically
-        var newLink = $("<a>").attr("href", project[i].link) ;
-        var newText = $("<div>");
-        newText.text(project[i].name).css("color","white");
-        //attach link to image
-        newimg.wrap(newLink)
+  
+        newcardFront.append(newimg);
+        var newcardBack = $("<div>");
+        newcardBack.addClass("flip-card-back newprojimg");
+        var newLink = $("<a>");
+        newLink.text(">> " + project[i].name);
+        newLink.attr("href",project[i].link).css("color","coral")      
         newcardBack.append(newLink);
-        newcardFront.append(newText);
         newcard.append(newcardFront, newcardBack);
         newflip.append(newcard);
         $("#projects").append(newflip);
