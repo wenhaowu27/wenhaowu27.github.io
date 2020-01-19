@@ -32,6 +32,14 @@ canvas {
       color: #0abab5;
   }
 
+  #resumetext {
+      /* display: block; */
+      margin-top: 15px;
+      margin-left: 80%;
+      color: #0f4c81;
+      /* font-size: 16px; */
+  }
+
 
 #tcolor {
     background-color: #0f4c81;
