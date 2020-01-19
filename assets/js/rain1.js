@@ -16,13 +16,8 @@ window.requestAnimFrame =
 
 const canvas = document.getElementById('c');
 const ctx = canvas.getContext('2d');
-canvas.width = 1366;
-canvas.height = 300;
-// ctx.font = "30px Comic Sans MS";
-ctx.fillStyle = "white";
-ctx.textAlign = "center";
-ctx.font = "30px Arial";
-ctx.strokeText("Hello World");
+canvas.width = 1000;
+canvas.height = 360;
 
 //--------------------------------------------
 
@@ -140,8 +135,10 @@ function update() {
 
 function init() {
   ctx.lineWidth = 1;
-  ctx.strokeStyle = 'rgba(60,135,235,1)';
-  ctx.fillStyle = 'rgba(60,135,235,1)';
+  ctx.strokeStyle = 'rgba(255,255,255,1)';
+  ctx.fillStyle = 'rgba(255,255,255,1)';
+  // ctx.strokeStyle = 'rgba(60,135,235,1)';
+  // ctx.fillStyle = 'rgba(60,135,235,1)';
   update();
 }
 

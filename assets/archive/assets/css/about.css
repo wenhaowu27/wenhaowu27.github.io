@@ -9,6 +9,10 @@
 #about_wrapper {
     margin: 0;
     height: 90%;
+    /* padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%; */
     background-color: #0f4c81;
     overflow: hidden;
 }
@@ -19,7 +23,9 @@ canvas {
     bottom: 0;
     right: 0;
     left: 0;
+    background-color: #0f4c81;
     margin:20px auto;
+    /* border:1px dashed #bbb; */
   }
   
   #canvastext{

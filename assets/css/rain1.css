@@ -1,26 +1,17 @@
 /* * {
-    margin-top: 25%px;
-    background: #0f4c81;
+    margin: 0;
+    background: #f2f2f2;
 } */
 
-#bodyColor{
-  position: absolute;
-  margin: 0 auto;
-  background: #0f4c81;
-  color: #fff;
-  width: 1366;
-  height: 300;
-  /* z-index: 999; */
-  
-}
-
 canvas {
-  position: absolute;
-  display: block;
-  margin: 20px auto;
-  background: #0f4c81;
+  display:block;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #0f4c81;
+  margin:20px auto;
   border:1px dashed #bbb;
-  z-index: -999;
 }
 
 a {
