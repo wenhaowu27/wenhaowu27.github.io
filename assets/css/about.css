@@ -8,7 +8,7 @@
 
 #about_wrapper {
     margin: 0;
-    height: 90%;
+    height: 85vh;
     background-color: #0f4c81;
     overflow: hidden;
 }
@@ -16,28 +16,22 @@
 canvas {
     display:block;
     top: 10%;
-    bottom: 0;
+    bottom: 5%;
     right: 0;
     left: 0;
-    margin:20px auto;
+    margin:0 auto;
   }
   
   #canvastext{
       position: absolute;  
-      bottom: 25%;
-      left: 20%;    
+      top: 10%;
+      left: 10%;    
       margin: 20px;
       padding: 5px;
-      padding-right: 20%;
-      color: white;
+      padding-right: 15%;
+      color: #0abab5;
   }
 
-/* #twotone {
-    background-color: #0f4c81, #fff;
-    background-position: left top, right bottom;
-    background-repeat: repeat, repeat;
-    padding: 15px;
-} */
 
 #tcolor {
     background-color: #0f4c81;
