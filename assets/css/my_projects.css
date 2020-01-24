@@ -10,13 +10,13 @@ body {
 
 .project_img {
     float: left;
-    height: 200px;
+    height: 150px;
     width:  250px;
     margin: 2.5%;
   }
 
   .newprojimg {
-    height: 200px;
+    height: 150px;
     width:  250px;
   }
 
@@ -41,12 +41,17 @@ body {
   }
    */
   .flip-card {
-    /* background-color: transparent; */
     width: 250px;
     height: 200px;
     border: 1px solid #f1f1f1;
     perspective: 1000px;
-    /* Remove this if you don't want the 3D effect */
+}
+
+  .repo-card {
+    width: 250px;
+    height: 20px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
 }
 
 
@@ -72,7 +77,8 @@ body {
 /* Position the front and back side */
 
 .flip-card-front,
-.flip-card-back {
+.flip-card-back, 
+.repo-card-front {
     box-shadow: #000000;
     position: absolute;
     width: 100%;
@@ -84,6 +90,14 @@ body {
 /* Style the front side (fallback if image is missing) */
 
 .flip-card-front {
+    background-color: #0f4c81;
+    color: black;
+    padding-top: 35%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.repo-card-front {
     background-color: #0f4c81;
     color: black;
     padding-top: 35%;
