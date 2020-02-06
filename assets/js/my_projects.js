@@ -21,6 +21,12 @@
           repolink: "https://github.com/wenhaowu27/password_generator"
         },
         {
+        img:"./assets/project_img/triviagame.jpg",
+        link:"https://wenhaowu27.github.io/TriviaGame/",
+        name:"Trivia Game",
+        repolink: "https://github.com/wenhaowu27/TriviaGame"
+        },
+        {
           img: "./assets/project_img/survey.jpg",
           link: "https://immense-beyond-03179.herokuapp.com/survey",
           name: "Friend Finder",
@@ -73,12 +79,6 @@
           link:"https://peaceful-badlands-67350.herokuapp.com/",
           name:"Eat-The-Burger",
           repolink: "https://github.com/wenhaowu27/Eat-Da-Burger"
-          },
-          {
-          img:"./assets/project_img/triviagame.jpg",
-          link:"https://wenhaowu27.github.io/TriviaGame/",
-          name:"Trivia Game",
-          repolink: "https://github.com/wenhaowu27/TriviaGame"
           },
           {
           img:"./assets/project_img/wonderkitchen.png",
