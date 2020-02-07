@@ -21,7 +21,7 @@
           repolink: "https://github.com/wenhaowu27/password_generator"
         },
         {
-        img:"./assets/project_img/triviagame.jpg",
+        img:"./assets/project_img/triviagame.png",
         link:"https://wenhaowu27.github.io/TriviaGame/",
         name:"Trivia Game",
         repolink: "https://github.com/wenhaowu27/TriviaGame"
